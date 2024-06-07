@@ -49,5 +49,4 @@ automatic installation of Packer plugins. Read the
 [Packer documentation](https://www.packer.io/docs/commands/init) for more information.
 
 > [!NOTE]
-> Packer 1.8.5 now has a `-evaluate-datasources` parameter which solves the `ssh_private_key_file is invalid` issue.
-> Run: `packer validate test.pkr.hcl -evaluate-datasources`
+> Packer 1.8.5 has a [-evaluate-datasources](https://developer.hashicorp.com/packer/docs/commands/validate#evaluate-datasources) option which solves the `ssh_private_key_file is invalid` issue. Run: `packer validate test.pkr.hcl -evaluate-datasources`
