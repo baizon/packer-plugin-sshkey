@@ -47,3 +47,6 @@ build {
 Starting from version 1.7, Packer supports a new `packer init` command allowing
 automatic installation of Packer plugins. Read the
 [Packer documentation](https://www.packer.io/docs/commands/init) for more information.
+
+Packer 1.8.5 now has a `-evaluate-datasources` parameter which solves the `ssh_private_key_file is invalid` issue.
+Run: `packer validate test.pkr.hcl -evaluate-datasources`
